@@ -35,7 +35,7 @@ let conf = {};
 
 conf.debugMode = process.env.DEBUG_MODE === "true";
 
-conf.port = process.env.PORT || 30000;
+conf.port = process.env.PORT || 30010;
 
 conf.wsFallback = process.argv.includes('--include-ws-fallback') || process.env.WS_FALLBACK === "true";
 
